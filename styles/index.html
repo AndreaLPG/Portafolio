@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    } 
+
+
+    thead{ color: rgb(218, 218, 41);
+
+    }
+
+    tbody {color: blue;
+
+    }
+
+    tfoot {color: aqua;
+
+    }
+
+    table, th, td {
+        
+        border: 1px solid black;
+
+    }
+</style>
+</head>
+<body>
+ 
+    <h3>Elementos thead, tbody y tfoot en una tabla </h3>
+    <table>
+        <thead> <!--aquda a seccionar el cuerpo de la cabeza de la tabla-->
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+
+        </thead>
+        <tbody> <!--cuerpo de la tabla-->
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot><!--expecifica la ultima parte de la tabla -->
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{ 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+.APP{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+label{
+    margin: 10px;
+}
+
+input{
+    margin-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
